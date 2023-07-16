@@ -16,8 +16,8 @@ The project is divided into different files:
 * `src/process.cpp` and `include/process.h`: Class for process data and logic
 * `src/processor.cpp` and `include/processor.h`: Class for processor data and logic
 * `Test/test.cpp` : Class for unit testing for GetDiskReadRateForPID() and GetDiskWriteRateForPID().
-* other build and installation files
-Note that all header files can be found in `include` folder.
+* others, build and installation files.
+* Note that all header files can be found in `include` folder.
 
 ## Dependencies
 This project needs the following dependencies:
