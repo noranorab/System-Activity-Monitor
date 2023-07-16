@@ -44,10 +44,10 @@ std::string OperatingSystem();
 std::string Kernel();
 
 // Returns a vector of available disk devices in the system
-std::vectorstd::string GetAvailableDevices();
+std::vector<std::string> GetAvailableDevices();
 
 // Returns a vector of available disk partitions in the system
-std::vectorstd::string GetAvailablePartitions();
+std::vector<std::string> GetAvailablePartitions();
 
 
 // CPU
