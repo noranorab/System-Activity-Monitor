@@ -28,7 +28,7 @@ This project needs the following dependencies:
 * gcc/g++ >= 7.4.0
 * ncurses
   * (https://ostechnix.com/how-to-install-ncurses-library-in-linux/) is a library that facilitates text-based graphical output in the terminal.
-  * Use `sudo apt install libncurses5-dev libncursesw5-dev` to install ncurse ((For Ubuntu or Debian-based systems))
+  * Use `sudo apt install libncurses5-dev libncursesw5-dev` to install ncurses (For Ubuntu or Debian-based systems)
 * gtest framework is Google's C++ testing and mocking framework.
    * sudo apt-get install libgtest-dev (For Ubuntu or Debian-based systems)
    * Visit the Google Test GitHub repository (https://github.com/google/googletest) and download the source code either by cloning the repository or downloading a release tarball
