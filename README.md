@@ -37,10 +37,10 @@ This project needs the following dependencies:
 1. Clone this repository.
 2. Install dependencies.
 3. To run the tests, delete the file CMakeCache.txt in "System-Activity-Monitor/Test/build".
-   . At System-Activity-Monitor/Test/build, run the command `cmake ..`, then `make`, then `./test`
+   * At System-Activity-Monitor/Test/build, run the command `cmake ..`, then `make`, then `./test`
                      <img src="images/test.png"/>
 6. To run the system monitor, delete the file CMakeCache.txt in "System-Activity-Monitor/".
-   . At System-Activity-Monitor/, run the command `cmake .`, then `make`, then `./monitor`
+   *  At System-Activity-Monitor/, run the command `cmake .`, then `make`, then `./monitor`
                      <img src="images/monitor.png"/>
 
 ## Result
