@@ -2,10 +2,9 @@
 #define PROCESS_H
 
 #include <string>
-/*
-Basic class for Process representation
-It contains relevant attributes as shown below
-*/
+
+//class for Process representation
+
 class Process {
 public:
   Process(int PID);
