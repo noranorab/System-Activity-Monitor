@@ -3,7 +3,7 @@
 #include "../include/linux_parser.h"
 
 // Test fixture for disk rate tests
-class DiskRateTest : public ::testing::Test {
+class test : public ::testing::Test {
 protected:
     int pid_;
 
@@ -18,14 +18,14 @@ protected:
 };
 
 // Test for GetDiskReadRateForPID()
-TEST_F(DiskRateTest, GetDiskReadRateForPID) {
+TEST_F(test, GetDiskReadRateForPID) {
     double readRate = LinuxParser::GetDiskReadRateForPID(pid_);
     // Add your assertions here to validate the read rate
     EXPECT_GE(readRate, 0.0);
 }
 
 // Test for GetDiskWriteRateForPID()
-TEST_F(DiskRateTest, GetDiskWriteRateForPID) {
+TEST_F(test, GetDiskWriteRateForPID) {
     double writeRate = LinuxParser::GetDiskWriteRateForPID(pid_);
     // Add your assertions here to validate the write rate
     EXPECT_GE(writeRate, 0.0);

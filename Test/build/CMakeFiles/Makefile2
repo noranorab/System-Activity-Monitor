@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/nora/Bureau/System-Activity-Monitor/Test/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/DiskRateTest.dir/all
+all: CMakeFiles/test.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/DiskRateTest.dir/clean
+clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DiskRateTest.dir
+# Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
-CMakeFiles/DiskRateTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nora/Bureau/System-Activity-Monitor/Test/build/CMakeFiles --progress-num=1,2,3 "Built target DiskRateTest"
-.PHONY : CMakeFiles/DiskRateTest.dir/all
+CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nora/Bureau/System-Activity-Monitor/Test/build/CMakeFiles --progress-num=1,2,3 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DiskRateTest.dir/rule: cmake_check_build_system
+CMakeFiles/test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nora/Bureau/System-Activity-Monitor/Test/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DiskRateTest.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nora/Bureau/System-Activity-Monitor/Test/build/CMakeFiles 0
-.PHONY : CMakeFiles/DiskRateTest.dir/rule
+.PHONY : CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-DiskRateTest: CMakeFiles/DiskRateTest.dir/rule
-.PHONY : DiskRateTest
+test: CMakeFiles/test.dir/rule
+.PHONY : test
 
 # clean rule for target.
-CMakeFiles/DiskRateTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/clean
-.PHONY : CMakeFiles/DiskRateTest.dir/clean
+CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

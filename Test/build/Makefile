@@ -117,48 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DiskRateTest
+# Target rules for targets named test
 
 # Build rule for target.
-DiskRateTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DiskRateTest
-.PHONY : DiskRateTest
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-DiskRateTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/build
-.PHONY : DiskRateTest/fast
-
-DiskRateTest.o: DiskRateTest.cpp.o
-.PHONY : DiskRateTest.o
-
-# target to build an object file
-DiskRateTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/DiskRateTest.cpp.o
-.PHONY : DiskRateTest.cpp.o
-
-DiskRateTest.i: DiskRateTest.cpp.i
-.PHONY : DiskRateTest.i
-
-# target to preprocess a source file
-DiskRateTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/DiskRateTest.cpp.i
-.PHONY : DiskRateTest.cpp.i
-
-DiskRateTest.s: DiskRateTest.cpp.s
-.PHONY : DiskRateTest.s
-
-# target to generate assembly for a file
-DiskRateTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/DiskRateTest.cpp.s
-.PHONY : DiskRateTest.cpp.s
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.o: home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o
 .PHONY : home/nora/Bureau/System-Activity-Monitor/src/linux_parser.o
 
 # target to build an object file
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o
 .PHONY : home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o
 
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.i: home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.i
@@ -166,7 +142,7 @@ home/nora/Bureau/System-Activity-Monitor/src/linux_parser.i: home/nora/Bureau/Sy
 
 # target to preprocess a source file
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.i
 .PHONY : home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.i
 
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.s: home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.s
@@ -174,8 +150,32 @@ home/nora/Bureau/System-Activity-Monitor/src/linux_parser.s: home/nora/Bureau/Sy
 
 # target to generate assembly for a file
 home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DiskRateTest.dir/build.make CMakeFiles/DiskRateTest.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.s
 .PHONY : home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.s
+
+test.o: test.cpp.o
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -185,13 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DiskRateTest"
-	@echo "... DiskRateTest.o"
-	@echo "... DiskRateTest.i"
-	@echo "... DiskRateTest.s"
+	@echo "... test"
 	@echo "... home/nora/Bureau/System-Activity-Monitor/src/linux_parser.o"
 	@echo "... home/nora/Bureau/System-Activity-Monitor/src/linux_parser.i"
 	@echo "... home/nora/Bureau/System-Activity-Monitor/src/linux_parser.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-CMakeFiles/DiskRateTest.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o: \
+CMakeFiles/test.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o: \
  /home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp \
  /usr/include/stdc-predef.h /usr/include/dirent.h /usr/include/features.h \
  /usr/include/features-time64.h \

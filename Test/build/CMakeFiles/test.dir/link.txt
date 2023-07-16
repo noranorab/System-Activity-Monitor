@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/test.dir/test.cpp.o CMakeFiles/test.dir/home/nora/Bureau/System-Activity-Monitor/src/linux_parser.cpp.o -o test  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

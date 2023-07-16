@@ -1,5 +1,5 @@
-CMakeFiles/DiskRateTest.dir/DiskRateTest.cpp.o: \
- /home/nora/Bureau/System-Activity-Monitor/Test/DiskRateTest.cpp \
+CMakeFiles/test.dir/Test.cpp.o: \
+ /home/nora/Bureau/System-Activity-Monitor/Test/Test.cpp \
  /usr/include/stdc-predef.h /usr/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

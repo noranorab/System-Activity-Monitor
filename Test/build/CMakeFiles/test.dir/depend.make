@@ -1,2 +1,2 @@
-# Empty dependencies file for DiskRateTest.
+# Empty dependencies file for test.
 # This may be replaced when dependencies are built.
