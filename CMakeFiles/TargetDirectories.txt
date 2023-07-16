@@ -1,0 +1,3 @@
+/home/nora/Bureau/System-Activity-Monitor/CMakeFiles/monitor.dir
+/home/nora/Bureau/System-Activity-Monitor/CMakeFiles/edit_cache.dir
+/home/nora/Bureau/System-Activity-Monitor/CMakeFiles/rebuild_cache.dir
