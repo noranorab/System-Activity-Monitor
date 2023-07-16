@@ -41,7 +41,7 @@ This project needs the following dependencies:
                      <img src="images/test.png"/>
 6. To run the system monitor, delete the file CMakeCache.txt in "System-Activity-Monitor/".
    *  At System-Activity-Monitor/, run the command `cmake .`, then `make`, then `./monitor`
-                     <img src="images/monitor.png"/>
+                     <img src="images/build-monitor.png"/>
 
 ## Result
 Here you can see an example result (from my Linux VM):
